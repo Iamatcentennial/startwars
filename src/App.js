@@ -6,7 +6,6 @@ import { fetchStarwarsPeople } from "./redux/StarWars/StarWars.action";
 import SelectCharacter from "./components/SelectPeople";
 import MoviesList from "./components/MoviesList";
 import MovieDetails from "./components/MovieDetails";
-import "./App.css";
 
 const useStyles = makeStyles(theme => ({
   root: {
